@@ -27,3 +27,25 @@ transition: color 2s 150ms;
 - property: color
 - duration: 2s
 - delay: 150ms
+
+## On Duration
+
+"_However long your pre-production animation, halve its duration... then halve it again._" - Studio animation rule of thumb
+
+## On Easing
+
+an animation's "rate of change" over time
+**see resources** - [Easings.net](https://easings.net/)
+
+### Timing Function Vals
+
+- Linear
+- ease-in
+- ease-out
+- ease-in-out
+
+### A cubic-bezier transition
+
+```css
+transition: transform 0.35s cubic-bezier(0, 0.04, 0.98.34);
+```
