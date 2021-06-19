@@ -19,3 +19,11 @@ some..."room"... this defaults to "ease"
 
 **transition-delay**  
 how long before the transition starts
+
+```css
+transition: color 2s 150ms;
+```
+
+- property: color
+- duration: 2s
+- delay: 150ms
