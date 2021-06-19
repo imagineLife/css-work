@@ -1,0 +1,27 @@
+.paw {
+  transition: transform 0.25s ease-in;
+}
+
+.playing .paw {
+  transform: translateX(30px);
+}
+
+.paw {
+  position: absolute;
+  top: 0;
+  left: 80px;
+}
+
+.ball {
+  background: #0097c0;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background: #e3edf2;
+}
