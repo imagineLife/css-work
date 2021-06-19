@@ -6,10 +6,6 @@
   transform: translateX(30px);
 }
 
-.playing .ball {
-  transform: translate(235px);
-}
-
 .paw {
   position: absolute;
   top: 0;
@@ -26,13 +22,21 @@
   height: 100px;
 
   /* old-school */
-  /* transition-property: transform;
-  transition-duration: 1.25s; */
+  /* 
+  transition-property: transform;
+  transition-duration: 1.25s; 
+  transition-delay: .25s;
+  */
 
   /* all-in-one */
-  transition: transform 1.25s;
+  transition: transform 1.25s 0.15s, border 1.5s;
 }
 
 body {
   background: #e3edf2;
+}
+
+.playing .ball {
+  transform: translate(235px);
+  border: 10px solid darkred;
 }
