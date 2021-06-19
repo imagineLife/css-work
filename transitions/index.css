@@ -26,6 +26,7 @@
   transition-property: transform;
   transition-duration: 1.25s; 
   transition-delay: .25s;
+  transition-timing-function: ease-in;
   */
 
   /* all-in-one */
