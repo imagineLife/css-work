@@ -26,8 +26,11 @@
   height: 100px;
 
   /* old-school */
-  transition-property: transform;
-  transition-duration: 1.25s;
+  /* transition-property: transform;
+  transition-duration: 1.25s; */
+
+  /* all-in-one */
+  transition: transform 1.25s;
 }
 
 body {
