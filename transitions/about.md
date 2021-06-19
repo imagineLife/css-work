@@ -3,6 +3,9 @@
 **transition**  
 The transition describes how a specific css property value _will change_ with a different value.
 
+- Transitions are good for a **single instance**, where an animation happens 1x
+- Transitions are good for **granularity**, where fine-tuned effects can happen on hand-picked properties
+
 ```css
 transition: color 2s;
 ```
