@@ -44,3 +44,18 @@
   }
 }
 ```
+
+## A Compound Example
+
+```css
+.black-to-white-to-red {
+  animation: b-to-w 1s linear 1, b-to-r 2s ease-out infinite 2s;
+}
+```
+
+## Steps
+
+- a timing fn
+- splits a block of keyframes into X-STEPS equal sections
+- jumps between the keyframes
+- can be useful with sprites
