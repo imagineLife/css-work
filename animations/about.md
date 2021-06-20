@@ -20,3 +20,27 @@
 - animation-fill-mode
   - styles for an animated element before/after the animation happens
 - animation
+
+## An Example
+
+```css
+.black-to-white {
+  /* 
+    b-to-w is the keyframe 
+    2s is the duration
+    linear is the "speed curve"
+    1 is the number of times the thing should happen
+  */
+
+  animation: b-to-w 2s linear 1;
+}
+
+@keyframes b-to-w {
+  0% {
+    background-color: #000;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+```
